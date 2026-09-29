@@ -14,23 +14,28 @@
 </head>
 
 <body>
-   <a href="#main-content">Skip to main content</a>
-  <header>
-    <a href="/" aria-label="Velvet Echo Digital, home">
-      Velvet Echo Digital
-    </a>
+   <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <div class="container site-header__inner">
 
-    <nav aria-label="Primary navigation">
-      <ul>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#technical">Technical</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+        <a class="site-brand" href="/" aria-label="Velvet Echo Digital, home">
+            <span class="site-brand__mark" aria-hidden="true"></span>
+            <span class="site-brand__name">Velvet Echo Digital</span>
+        </a>
+
+        <nav class="primary-nav" aria-label="Primary navigation">
+            <ul>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#technical">Technical</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </div>
   </header>
 
-  <main id="main-content">
+  <main id="main-content" class="container">
     <section aria-labelledby="intro-heading">
       <p>Independent software development</p>
 
@@ -38,24 +43,26 @@
         Full-stack software development for digital services.
       </h1>
 
-      <p>
+      <p class="hero__intro">
         Building, maintaining and improving web applications and digital
         services across central government, public sector and complex
         organisations.
       </p>
 
-      <p>
+      <p class="hero__meta">
         <strong>Sue Farrell</strong>
         <span aria-hidden="true"> · </span>
         Full Stack Software Developer
         <span aria-hidden="true"> · </span>
         15+ years’ experience
-      </p>
+    </p>
 
-      <p>
-        <a href="#contact">Get in touch</a>
-        <a href="#experience">View experience</a>
-      </p>
+    <p class="hero__actions">
+        <a class="button" href="#contact">Get in touch <span aria-hidden="true">→</span></a>
+        <a class="text-link" href="#experience">
+            View experience <span aria-hidden="true">↓</span>
+        </a>
+    </p>
 
       <div>
         <div>
@@ -188,8 +195,10 @@
     </section>
   </main>
 
-  <footer>
-    <p>© 2026 Velvet Echo Digital Ltd</p>
+  <footer class="site-footer">
+    <div class="container">
+        <p>© 2026 Velvet Echo Digital Ltd</p>
+    </div>
   </footer>
 </body>
 </html>
