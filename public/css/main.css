@@ -110,18 +110,18 @@ a:focus-visible {
 }
 
 .site-brand {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.75rem;
-    color: var(--colour-text);
-    text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.625rem;
+  color: var(--colour-text);
+  text-decoration: none;
 }
 
 .site-brand__mark {
-    display: none;
-    width: 2.5rem;
-    height: 2.5rem;
-    flex: 0 0 auto;
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+  flex: 0 0 auto;
 }
 
 .site-brand__name {
